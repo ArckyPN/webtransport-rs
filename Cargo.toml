@@ -8,5 +8,8 @@ members = [
 resolver = "2"
 
 [patch.crates-io]
-quinn = { git = "https://github.com/ArckyPN/quinn.git" }
-quinn-proto = { git = "https://github.com/ArckyPN/quinn.git" }
+# quinn = { git = "https://github.com/ArckyPN/quinn.git" }
+# quinn-proto = { git = "https://github.com/ArckyPN/quinn.git" }
+quinn = { path = "../quinn-0.10.x/quinn" }
+quinn-proto = { path = "../quinn-0.10.x/quinn-proto" }
+
